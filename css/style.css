@@ -1,0 +1,62 @@
+#title{
+    background-color:#f05454;
+    color: #fff;
+
+}
+
+h3{
+    font-family: Montserrat-Black;
+    
+}
+h5{
+    font-size: medium;
+    color: silver ;
+}
+
+.judul{
+    font-family: Montserrat-Black;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+    
+}
+.container-fluid{
+    padding: 2% 13% 0% 13%;
+    color: #fff;
+    display: block;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.title{
+    padding: 3% 0% 13% 0% ;
+   
+}
+.gambardepan{
+    display: block;
+    margin : auto;
+    max-width: 100%;
+    height: auto;
+}
+#fitur{
+    padding: 5% 13%;
+    
+}
+.box{
+    padding: 3%;
+    text-align: center;
+}
+.icon{
+    color: #f05454;
+    padding-bottom: 20px;
+}
+.icon:hover{
+    color: #f875aa;
+
+}
+
