@@ -1,11 +1,10 @@
 #title{
-    background-color:#f05454;
+    background-color:#E68BBE;
     color: #fff;
-
 }
 
 h3{
-    font-family: Montserrat-Black;
+    font-family: 'Montserrat-Black';
     
 }
 h5{
@@ -14,19 +13,24 @@ h5{
 }
 
 .judul{
-    font-family: Montserrat-Black;
+    font-family: 'Montserrat-Extra-bold 800';
     font-size: 3rem;
     line-height: 1.5;
     font-weight: bold;
-    
 }
+@media (max-width: 740px){
+    #title{
+        text-align: center;
+    }
+    }
+
 .container-fluid{
     padding: 2% 13% 0% 13%;
     color: #fff;
     display: block;
 }
 .navbar-brand{
-    font-family: Ubuntu;
+    font-family: 'Ubuntu';
     font-size: 2.5rem;
 
 }
@@ -34,7 +38,7 @@ h5{
     font-size: 1.5rem;
 }
 .title{
-    padding: 3% 0% 13% 0% ;
+    padding: 0% 13% 0% ;
    
 }
 .gambardepan{
@@ -43,8 +47,14 @@ h5{
     max-width: 100%;
     height: auto;
 }
+.wadah-login{
+    padding-bottom: 5%;
+}
 #fitur{
-    padding: 5% 13%;
+    padding: 5%  15% 0% 15%;
+    margin-top: -1%;
+    background-color: #fff;
+    position: relative;
     
 }
 .box{
@@ -52,11 +62,82 @@ h5{
     text-align: center;
 }
 .icon{
-    color: #f05454;
+    color: #F4B8DA;
     padding-bottom: 20px;
 }
 .icon:hover{
-    color: #f875aa;
+    color: #EEA1CD;
 
 }
+.garis{
+   padding-top: 7%;
+}
+.garis1{
+    padding-bottom: 7%;
+ }
+hr{
+    margin: auto;
+    border: dotted #fc73c1 20px;
+    border-bottom: none;
+    width: 10%;
+}
 
+#biodata{
+    padding: 5% 5% 0% 5%;
+    font-family: 'Akaya Kanadaka', cursive;
+    background-color:#fff ;
+    color: #fff;
+}
+.title-bio{
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 1px 2px 4px #EEA1CD;
+    line-height: 1.5;
+    color:#E68BBE;
+
+}
+@media (max-width: 900px){
+    .title-bio{
+        font-size: 3rem;
+    }
+    }
+.pic-bio{
+    text-align: center;
+    width: 100%;
+}
+.box1{
+    padding: 5%;
+}
+.box2{
+    text-align: center;
+}
+.pic-box1{
+    width: 200px;
+    margin-bottom: 7%;
+}
+.pic-box2{
+    width: 190px;
+    margin-bottom: 5%;
+    box-shadow: #EEA1CD;
+
+}
+#contac{
+    background-color: #EEA1CD;
+    padding:5% 5% 0% 5% ;
+    text-align: center;
+}
+.txt-contac{
+    color: #fff;
+}
+.icon-bawah{
+    margin-right: 15px;
+}
+.btn-contac{
+    padding-top: 5%;
+}
+.cr{
+    padding-top: 5%;
+    color: #fff;
+    font-size: large;
+    font-family: 'Montserrat-Extra-bold 800';
+}
